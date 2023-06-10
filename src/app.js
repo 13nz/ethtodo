@@ -135,6 +135,13 @@ App = {
             loader.hide()
             content.show()
         }
+    },
+
+    toggleCompleted: async (e) => {
+        App.setLoading(true)
+        const taskId = e.target.name
+        await App.todoList.toggleCompleted(taskId)
+        window.location.reload()
     }
 }
 
