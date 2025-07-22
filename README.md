@@ -17,8 +17,8 @@ A decentralized to-do list application built with **Solidity**, **Ethereum**, an
 |--------------|------------------------|
 | Smart Contract | Solidity, Remix / Hardhat |
 | Frontend     | HTML, CSS, JavaScript |
-| Blockchain   | Ethereum (Testnet e.g. Goerli) |
-| Web3 Library | Web3.js or Ethers.js   |
+| Blockchain   | Ethereum |
+| Web3 Library | Web3.js  |
 | Wallet       | MetaMask               |
 
 ---
